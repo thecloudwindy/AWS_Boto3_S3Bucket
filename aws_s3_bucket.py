@@ -1,6 +1,6 @@
 import boto3
 
-BUCKET_NAME = 'myawsbucket-000001'
+BUCKET_NAME = '<name of Bucket>'
 
 def s3_client():
     s3 = boto3.client('s3')
